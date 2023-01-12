@@ -6,9 +6,7 @@
     Returns:
         list: return answer
 */
-List func(List x){
-return x;
-}
+
 void main() {
-    print(func([]));
+    print([]);
 }
