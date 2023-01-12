@@ -10,5 +10,5 @@ List func(List list1){
    return list1; 
    }
 void main(){
-print(func([5,5,5,6])[0]);
+print(func(['code', 5,5,5,6])[0]);
 }
