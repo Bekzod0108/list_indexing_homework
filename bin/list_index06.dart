@@ -7,16 +7,22 @@
         list: return answer
 */
 List func(List list1){
+  int a=0;
+  while(a<list1.length){
+    if(list1[a]>0){
+      list1[a]='True';
+      a+=1;
+    }
+   else {
+    a+=1;
+   }
+  }
+  return list1;
+
      
-     return list1;
+     
 }
 void main() {
-   List list1=func([0,1,0,2,0,3]);
-   int x=0;
-   while(list1>0){
-    if(list1[x]>0){
-      print('True');
-    }
-    print(list1[x]);
-   }
+  print(func([1,0,0,1]));
+  
 }

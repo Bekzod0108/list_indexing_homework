@@ -8,7 +8,8 @@
         list: return answer
 */
 List func(List list1, int i){
-    return  list1[i];
+    List a=[list1[i]];
+    return  a;
 }
 void main() {
     print(func([2,6,2,8], 2));

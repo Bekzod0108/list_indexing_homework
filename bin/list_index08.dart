@@ -8,12 +8,12 @@
 */
 List func(List list1){
     int x=0;
-    while(true){
+    while(x<list1.length){
     if(list1[x]>0){
         list1[x]='True';
         x+=1;
     }
-    if(list1[x]==0){
+    else{
         list1[x]='False';
         x+=1;
     }}
