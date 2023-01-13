@@ -7,9 +7,10 @@
         list: return answer
 */
 List func(List list1){
+    List a=[list1[0]];
    
-   return list1[0]; 
+   return a; 
    }
 void main(){
-print(func(['code', 5,5,5,6]));
+print(func([ 5,5,5,6]));
 }
