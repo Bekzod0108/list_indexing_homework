@@ -10,11 +10,11 @@ List func(List list1){
     int x=0;
     while(x<=list1.length){
     if(list1[x]>0){
-        list1[x]='true';
+        list1[x]=True;
         x+=1;
     }
     else{
-        list1[x]='false';
+        list1[x]=False;
         x+=1;
     }}
     return list1;
