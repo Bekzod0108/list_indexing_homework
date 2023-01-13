@@ -8,9 +8,9 @@
         list: return answer
 */
 List func(List list1, int i){
-    
-    return list1[i];
+    return  list1[i];
 }
 void main() {
-    print(func([2,6,2,8], 1));
+    print(func([2,6,2,8], 2));
+  
 }
