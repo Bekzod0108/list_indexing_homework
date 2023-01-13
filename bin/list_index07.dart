@@ -8,9 +8,9 @@
 */
 List func(List list1){
     int a=0;
-    while(a<list1.length){
+    while(a<=list1.length){
         if(list1[a]==0){
-            list1[a]='False';
+            list1[a]=False;
             a+=1;
         }else{
         a+=1;}
