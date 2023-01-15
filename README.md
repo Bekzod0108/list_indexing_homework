@@ -220,7 +220,7 @@ Output: [5]
 **Example 2:**
 
 ```Python
-Input: list1=[12, 2, 5, 2, 7, 9, 1]
+Input: list1=[12, 2, 5, 13, 7, 9, 1]
 Output: [12]
 
 ```
